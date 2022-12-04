@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(34, 7, 7);
+}
+.container{
+    height: 300px;
+    width: 300px;
+    background-color:rgb(34, 7, 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transform: rotate(45deg);
+    
+}
+h1{
+    display: block;
+    color: wheat;
+    text-transform: uppercase;
+    font-family:sans-serif;
+    position: absolute;
+    left: 95px;
+    bottom: 150px;
+    font-size: 18px;
+    transform: rotate(-45deg);
+}
+span{
+    color: orange;
+}
+p{
+    margin-top: 20px;
+    margin-left: 30px;
+    color: wheat;
+    font-family: sans-serif;
+    font-size: 12px;
+    transform: rotate(-45deg);
+    
+    
+}
+.one{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 300px;
+    width: 50px;
+    background-color: rgb(82, 218, 105);
+
+}
+.two{
+    position: absolute;
+    height: 300px;
+    width: 50px;
+    background-color: rgb(165, 184, 132);
+    top: 0px;
+    right: 0px;
+}
+.three{
+    position: absolute;
+    height: 50px;
+    width: 300px;
+    background-color: rgb(73, 73, 151);
+    bottom: 0px;
+    left: 0px;
+}
+.four{
+    position: absolute;
+    height: 50px;
+    width: 300px;
+    background-color:orangered;
+    top: 0px;
+    left: 0px;
+
+}
+.o{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(212, 65, 40);
+    top: 0px;
+    left: 0px;
+}
+.t{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(218, 94, 22);
+    top: 0px;
+    right:  0px;
+}
+.e{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(6, 153, 163);
+    bottom: 0px;
+    left: 0px;
+}
+.f{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(9, 78, 75);
+    bottom: 0px;
+    right:  0px; 
+}
